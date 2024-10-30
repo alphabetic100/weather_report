@@ -1,16 +1,26 @@
-# weather_update
+# Weather Update Application
 
-A new Flutter project.
+This is a simple and intuitive weather application that provides users with real-time weather updates, supporting both light and dark themes. The app is designed with a minimalistic interface, displaying essential weather details, including temperature, humidity, wind speed, and more. Built with `GetX` for state management and HTTP requests to fetch weather data through a REST API.
 
-## Getting Started
+## Features
 
-This project is a starting point for a Flutter application.
+- **Real-time Weather Data**: Get up-to-date information about the weather in your location.
+- **Light and Dark Mode Support**: Switch between light and dark themes for comfortable viewing at any time of day.
+- **Detailed Weather Stats**: View details like maximum and minimum temperatures, humidity, pressure, sea level, and wind speed.
+- **User-Friendly Interface**: A simple and elegant design for easy interaction.
 
-A few resources to get you started if this is your first Flutter project:
+## Screenshot
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+![Weather Update Overview](image/overview.jpeg)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Dependencies
+
+- **GetX**: For efficient state management.
+- **HTTP**: To make network requests to fetch weather data.
+- **REST API**: To retrieve real-time weather information from an online source.
+
+## How to Run
+
+1. Clone the repository:
+   ```bash
+   git clone <repository-url>
